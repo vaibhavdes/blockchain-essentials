@@ -1,0 +1,32 @@
+1) What is our understanding of the Block Chain?
+=>
+    Blockchain is built with combination of Distributed Database and Cryptography
+    a) Distributed Database is a storing same copy of transaction details on every connected user
+    b) Cryptography is converting this transaction details into signature every time when new transaction occurs, this makes verifying copy of same details among other user copy.
+    
+
+2) What is the core problem block chain trying to solve?
+=>
+    Block chain tries to solve problem about Secuity, Authenticity, and Powerful Third Party Trust.
+
+3) What are few features that Block Chain gives you?
+=>
+    a.	Verifiable
+    b.	Unchangeable
+    c.	Tamper-proof
+    d.	Immutable
+
+
+4) What all things does a Block Chain contains?
+=>
+    a.	  Block Number
+    b.	  Transaction record
+    c.	  Previous Block Signature
+    d.	  Mining Key
+
+
+5) How is the verifiability of block chain is been attained?
+=>
+    Same copy of a Transaction Data is stored among every connected user, along with its cryptography generated hash.
+    On every new transaction details (stored in new node), data gets replicated with previous signature and details generating new cryptography hash.
+    At some point this newly generated signature value is mismatched with any user, it will be compared with rest of users and based on votes of number of matching value, it will be verified and corrected.
